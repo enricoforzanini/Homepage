@@ -1,0 +1,164 @@
+
+body {
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    background-color: #fafafa;
+    line-height: 1.5;
+    margin: 4%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem 0 2rem 0;
+    font-weight: 300;
+}
+
+p {
+    margin: 0 0 0.5rem 0;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+}
+
+article {
+    text-align: center;
+}
+
+.intro {
+    display: inline-block;
+    text-align: left;
+    max-width: 35rem;
+    margin-bottom: 5rem;
+}
+
+.pages {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.column {
+    margin: 0 10px;
+}
+
+
+a {
+    text-decoration: none; /* removes underline from links */
+}
+
+/* Cards */
+.card {
+    width: 20rem;
+    object-fit: cover;
+}
+
+.card-img-top {
+    aspect-ratio: 3 / 3;
+    object-fit: cover;
+}
+
+
+/* dark-light theme */
+
+.dark-theme body {
+    background-color: #121212;
+    color: #fafafa;
+}
+
+.dark-theme .card {
+
+    background-color: #303030;
+}
+
+#themeSwitch,
+#github-icon,
+#linkedin-icon,
+.dark-link,
+#back-arrow {
+    color: black;
+}
+
+.dark-theme #themeSwitch,
+.dark-theme #github-icon,
+.dark-theme #linkedin-icon,
+.dark-theme .dark-link,
+.dark-theme #back-arrow {
+    color: darkgray;
+}
+
+#themeSwitch {
+    cursor: pointer; /* show hand while hovering over the icon #themeSwitch */
+}
+
+/* Top header positioning */
+.top-corner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5em;
+    padding-top: 5px;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#themeSwitch:hover,
+#themeSwitch:focus,
+#github-icon:hover,
+#github-icon:focus,
+#linkedin-icon:hover,
+#linkedin-icon:focus,
+.dark-link:hover,
+.dark-link:focus,
+#back-arrow:hover,
+#back-arrow:focus {
+    color: darkgray;
+}
+
+.dark-theme #themeSwitch:hover,
+.dark-theme #themeSwitch:focus,
+.dark-theme #github-icon:hover,
+.dark-theme #github-icon:focus,
+.dark-theme #linkedin-icon:hover,
+.dark-theme #linkedin-icon:focus,
+.dark-theme .dark-link:hover,
+.dark-theme .dark-link:focus,
+.dark-theme #back-arrow:hover,
+.dark-theme #back-arrow:focus  {
+    color: white;
+}
