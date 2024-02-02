@@ -153,7 +153,7 @@ h1 {
 }
 
 .container-scroll-vertical .text-scroll {
-    width: 80%;
+    width: 65%;
     height: auto;
     display: block;
     margin-top: 0;
@@ -169,7 +169,7 @@ h1 {
 }
 
 .movie-desc {
-    flex: 2;
+    flex: 3;
     width: 100%;
 }
 
